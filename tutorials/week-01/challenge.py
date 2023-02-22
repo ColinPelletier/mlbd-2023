@@ -10,7 +10,7 @@ def person_a():
     """
     # Code goes over here.
     import pandas as pd
-    return pd.read_csv('./data/school_performance.csv', sep=',')
+    return pd.read_csv('./data/school_performance.csv', sep=',', nrows=5000)
 
 def person_b(df):
     """Keeps only the data from the female students. 
