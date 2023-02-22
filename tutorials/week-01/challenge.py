@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-impoert pandas as pd
 def person_a():
     """Reads the data in data/school_performance.csv
     and returns a dataframe with the first 5,000 rows.
@@ -26,8 +25,6 @@ def person_b(df):
 
     return df
 
-    raise NotImplementedError()
-
 def person_c(df):
     """Calculates the mean from the column "grade"
 
@@ -38,8 +35,7 @@ def person_c(df):
     float: Mean grade
     """
     result =df[['grade']].mean()
-
-    raise NotImplementedError()
+    return result
 
 def main():
     """ Main program """
