@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+impoert pandas as pd
 def person_a():
     """Reads the data in data/school_performance.csv
     and returns a dataframe with the first 5,000 rows.
@@ -35,7 +35,7 @@ def person_c(df):
     Returns:
     float: Mean grade
     """
-    # Code goes over here.
+    result =df[['grade']].mean()
 
     raise NotImplementedError()
 
