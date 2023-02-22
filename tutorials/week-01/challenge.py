@@ -9,9 +9,8 @@ def person_a():
     dataframe: containing first 5,000 rows of school_performace.csv
     """
     # Code goes over here.
-
-    
-    raise NotImplementedError()
+    import pandas as pd
+    return pd.read_csv('./data/school_performance.csv', sep=',', nrows=5000)
 
 def person_b(df):
     """Keeps only the data from the female students. 
